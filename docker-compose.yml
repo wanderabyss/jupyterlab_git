@@ -1,0 +1,10 @@
+web: 
+    image: 'wanderabyss/jupyter_lab_git:latest'
+    restart: always
+    container_name: git_lab_web
+    ports:
+      - "8888:8888"
+
+    volumes:
+        - ${HOME}/Documents/Python/:/home/Python/
+    working_dir: /home/Python
