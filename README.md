@@ -1,7 +1,12 @@
 # jupyterlab_git
-Jupyter Lab - Git integrated
+
+**Jupyter Lab - Git integrated**
 
 
-Build: docker build -t wanderabyss/jupyter-lab-git:latest .
+`Build: docker build -t wanderabyss/jupyter_lab_git:latest .`
 
-Run: docker run -it -p 8888:8888 -v ${HOME}/Documents:/tf wanderabyss/jupyter-lab-git
+`Run: docker run -it -p 8888:8888 -v ${HOME}/Documents:/tf wanderabyss/jupyter_lab_git`
+
+Or fetch from docker hub directly, run :
+
+`docker-compose up `
